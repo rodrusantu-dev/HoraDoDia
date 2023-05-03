@@ -2,11 +2,8 @@
     font-family: 'roboto slab', serif; 
 }
 
-
-
 body {
     background-color: rgb(115, 115, 236);
-    font: normal 15pt Arial;
 }
 
 header {
@@ -16,12 +13,12 @@ text-align: center;
 
 div {
     padding: 8px;
-    text-align: center;
+
 }
 
 section {
     background-color: white;
-    border-radius: 100px;
+    border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;

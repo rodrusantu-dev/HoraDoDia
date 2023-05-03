@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hora do Dia</title>
-    <link rel="stylesheet" href="./style/estilo.css">
+    <title>Super Contador</title>
+    <link rel="stylesheet" href="estilo.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap" rel="stylesheet">
-    <script src="./js/script.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>    
-        <h1>Hora do Dia</h1>   
+        <h1>Vamos Contar</h1>   
     </header>
 
     <section>
-        <div id="msg">
-            Aqui vai aparecer a mensagem...
+        <div id="dados">
+            <p>Início: <input type="number" name="inicio" id="txti"> </p>
+            <p>Fim: <input type="number" name="fim" id="txtf"> </p>
+            <p>Passos: <input type="number" name="passo" id="txtp"></p>
+            <p> <input type="button" value="Contar" id="contar"> </p>
         </div>
-        <div id="foto">
-            <img id="imagem" src="./img/fotomanha.png" alt="foto do dia">
+        <div id="res">
+            Preparando a contagem...
         </div>
     </section>
 
